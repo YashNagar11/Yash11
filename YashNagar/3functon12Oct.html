@@ -1,0 +1,16 @@
+<script>
+    function Reverse(n)
+    {
+        var n,b,r=0;
+        for(;n>0;)
+        {
+            b=n%10;
+            r=r*10+b;
+            n=parseInt(n/10);
+        }
+        console.log(r);
+    } 
+    Reverse(126);
+    Reverse(65978);
+    Reverse(16);
+</script>
