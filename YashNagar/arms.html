@@ -1,0 +1,26 @@
+<script>
+    function arms(n)
+     {
+        var s=n.length
+        var t=n;
+        var u=0;
+        var a=0;
+            while(n>0)
+            {
+                a=n%10;
+                u=u+a**s;
+                n=parseInt(n/10);
+            } 
+            if(t==u)
+            {
+                console.log(t+"is a armstrong");
+            }
+            else
+            {
+                console.log(t+"is not a armstrong");
+            }
+        }
+        arms(153);
+        arms(169);
+        arms(697);
+</script>
