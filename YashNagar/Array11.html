@@ -1,0 +1,29 @@
+<script>
+    var a=[0,2,3,4,15,11,12]
+    for(i of a)
+    {
+        if(i==0 || i==1)
+        {
+            console.log(i+" Not a prime no.");
+        }
+        else
+        {
+        for(n=2;n<i;n++)
+        {
+            if(i%n==0)
+            {
+                //console.log("Not a prime no.");
+                break;
+            }
+        }   
+            if(n==i)
+            {
+                console.log(i+" IS a prime no.");
+            }
+            else
+            {
+                console.log(i+" NOt a prime no.");
+            }
+        }
+}
+</script>

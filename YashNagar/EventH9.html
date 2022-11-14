@@ -1,0 +1,26 @@
+<input type="text" name=" " id="i1" onfocus="show('i1')" onblur="display('i1')"><br>
+<input type="text" name=" " id="i2" onfocus="show('i2')" onblur="display('i2')"><br>
+<script>
+    function show(a) 
+    {
+      if(a=='i1')
+      {
+        document.getElementById('i1').style.backgroundColor='Orange';
+      }    
+      else
+      {
+        document.getElementById('i2').style.backgroundColor='Orange';
+      }
+    }
+    function display(a) 
+    {
+       if(a=='i1')
+       {
+        document.getElementById('i1').style.backgroundColor='Blue';
+       }    
+       else
+       {
+        document.getElementById('i2').style.backgroundColor='Blue';
+       }
+    }
+</script>

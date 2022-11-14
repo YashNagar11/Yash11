@@ -1,0 +1,21 @@
+<script>
+    var a=[50,45,86,10,39]
+        s=a[1]
+        sm=a[0]
+        for(i of a)
+        {
+            if(i<s)
+            {
+                s=i;
+            }
+         }
+            for(i of a)
+        {
+            if(i<sm && i>s)
+            {
+                sm=i;
+            }
+        }
+        console.log("Smallest Element is "+s);
+        console.log("Second smallest Element is "+sm);
+</script>        

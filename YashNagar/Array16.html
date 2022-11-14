@@ -1,0 +1,30 @@
+<script>
+    var a=[80,60,90,56,97];
+        s=a[4];
+        sm=a[4];
+        ts=a[0];
+        for(i of a)
+        {
+            if(i<s)
+            {                                   
+                s=i;
+            }
+        }
+        for(i of a)
+        {
+            if(i<sm && i!=s)
+            {
+                sm=i;
+            }
+        }
+        for(i of a)
+        {
+            if(i<ts && i!=s && i!=sm)
+            {
+                ts=i;
+            }
+        }
+        console.log("Smallest Element is "+s);
+        console.log("Second Smallest Element is "+sm);
+        console.log("Third Smallest Element is "+ts);
+</script>

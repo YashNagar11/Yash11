@@ -1,0 +1,19 @@
+<script>
+     var a=[54,44,53,10,25];
+         //s=parseInt(prompt("Enter size of an Array"));
+         for(i=0;i<5;i++)
+         {
+            //a.push(parseInt(prompt("Enter values of array")));
+            for(j=i+1;j<5;j++)
+            {
+                if(a[i]>a[j])
+                {
+                    var t=a[i];
+                        a[i]=a[j];
+                        a[j]=t;
+                }
+            }
+                document.write("<br>");
+        }
+         console.log(a);
+</script>    
